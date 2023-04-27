@@ -36,7 +36,7 @@ namespace UptimeKuma {
 
             if (!Directory.Exists("node")) {
                 downloadQueue.Enqueue(new DownloadItem {
-                    URL = $"https://nodejs.org/dist/v{nodeVersion}/node-v{nodeVersion}-win-x64.zip",
+                    URL = $"https://nodejs.org/dist/uptime/v{nodeVersion}/node-v{nodeVersion}-win-x64.zip",
                     Filename = "node.zip",
                     TargetFolder = "node"
                 });

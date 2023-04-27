@@ -1,4 +1,4 @@
-const { BeanModel } = require("redbean-node/dist/bean-model");
+const { BeanModel } = require("redbean-node/dist/uptime/bean-model");
 
 class DockerHost extends BeanModel {
     /**

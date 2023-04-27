@@ -1,4 +1,4 @@
-const { BeanModel } = require("redbean-node/dist/bean-model");
+const { BeanModel } = require("redbean-node/dist/uptime/bean-model");
 const { parseTimeObject, parseTimeFromTimeObject, log } = require("../../src/util");
 const { R } = require("redbean-node");
 const dayjs = require("dayjs");

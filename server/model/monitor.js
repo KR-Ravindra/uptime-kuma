@@ -9,7 +9,7 @@ const { tcping, ping, dnsResolve, checkCertificate, checkStatusCode, getTotalCli
     redisPingAsync, mongodbPing,
 } = require("../util-server");
 const { R } = require("redbean-node");
-const { BeanModel } = require("redbean-node/dist/bean-model");
+const { BeanModel } = require("redbean-node/dist/uptime/bean-model");
 const { Notification } = require("../notification");
 const { Proxy } = require("../proxy");
 const { demoMode } = require("../config");

@@ -355,7 +355,7 @@ import "prismjs/themes/prism-tomorrow.css"; // import syntax highlighting styles
 import ImageCropUpload from "vue-image-crop-upload";
 // import Prism Editor
 import { PrismEditor } from "vue-prism-editor";
-import "vue-prism-editor/dist/prismeditor.min.css"; // import the styles somewhere
+import "vue-prism-editor/dist/uptime/prismeditor.min.css"; // import the styles somewhere
 import { useToast } from "vue-toastification";
 import { marked } from "marked";
 import DOMPurify from "dompurify";

@@ -89,11 +89,11 @@ class UptimeKumaServer {
         }
 
         try {
-            this.indexHTML = fs.readFileSync("./dist/index.html").toString();
+            this.indexHTML = fs.readFileSync("./dist/uptime/index.html").toString();
         } catch (e) {
-            // "dist/index.html" is not necessary for development
+            // "dist/uptime/index.html" is not necessary for development
             if (process.env.NODE_ENV !== "development") {
-                log.error("server", "Error: Cannot find 'dist/index.html', did you install correctly?");
+                log.error("server", "Error: Cannot find 'dist/uptime/index.html', did you install correctly?");
                 process.exit(1);
             }
         }

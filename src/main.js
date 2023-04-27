@@ -2,7 +2,7 @@ import "bootstrap";
 import { createApp, h } from "vue";
 import contenteditable from "vue-contenteditable";
 import Toast from "vue-toastification";
-import "vue-toastification/dist/index.css";
+import "vue-toastification/dist/uptime/index.css";
 import App from "./App.vue";
 import "./assets/app.scss";
 import "./assets/vue-datepicker.scss";
